@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    top: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.bot-container {
+    width: 350px;
+    height: 450px;
+    /* border:10px solid rgb(122, 122, 207); */
+    border-radius: 5px;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    display: none;
+}    
+.bot-head {
+    width: 100%;
+    height: 35px;
+    background-color: #5e6edb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.head-title {
+    margin-left: 20px;
+    color: white;
+}
+.bot-message {
+    /* background-color: yellow; */
+    background-image: url(https://wallpapers.com/images/hd/purple-pastel-aesthetic-background-ryq8ugp1px47l9ds.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 370px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.bot-footer {
+    display:flex;
+    height: 40px;
+}
+#message-textbox {
+    width:300px;
+    /* border-radius: 10px; */
+    border-color: white;
+    outline: none;
+}
+.send-img {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+.send-btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 25%;
+} 
+.bot-message .message {
+    max-width: 80%;
+    background-color: white;
+    word-wrap: break-word;
+    margin-left: 5px;
+   border-radius: 30px 20px;
+   display: flex;
+   margin-top: 10px;
+}
+.bot-message .reply {
+    max-width: 80%;
+    background-color: #85d985;
+    word-wrap: break-word;
+    margin-left: auto;
+    margin-right: 5px;
+    border-radius: 20px 30px;
+    display: flex;
+    margin-top: 10px;
+}
+.bot-message .message p {
+    margin-left: 15px;
+    width: 70%;
+}
+.bot-message .reply p {
+    margin-left: 15px;
+    width: 70%;
+}
+.bot-close {
+    width: 20px;
+    margin-left: auto;
+    color: white;
+    cursor: pointer;
+}
+#message-textbox:focus {
+    box-shadow: 3px -8px 12px white;
+    font-size: 15px;
+}
+.message-icon-btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: blue;
+    font-size: 35px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.top-scroll
+{   
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    color: green;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.time {
+    font-size: 11px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}

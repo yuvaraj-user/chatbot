@@ -1,0 +1,29 @@
+bot : ✋ 😄 Hi! I'm laravel application
+
+user : hi
+
+bot: Hello! What is your Name?
+
+user : test
+
+bot : Nice to meet you test😊
+
+user : how are you
+
+bot : Fine
+
+bot: How are you?
+
+user : fine
+
+bot: How can i help you?
+
+user : how does it work
+
+bot : It is chatbot it will help you immediate queries
+
+user : thanks
+
+bot : welcome
+
+bot  :bye 👋
